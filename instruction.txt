@@ -1,1 +1,6 @@
-All the instructions will be added here. keep following
+All the instructions will be added here. keep following.
+
+In lesson 5 discuss about the routing
+In lesson 6 discuss about url module
+In lesson 7 discuss how to use external module and npm, nodemon
+In lesson 8 discuss about express.js
