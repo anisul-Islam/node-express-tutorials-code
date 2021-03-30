@@ -1,0 +1,23 @@
+Step 1: create an .env file in the root directory
+
+Step 2: define environment variable(S) using uppercase letters and underscore if more than one word. Example - 
+	PORT
+	DATABASE_URL
+
+Step 3: Assign the values without double quotation and space
+	PORT=3000
+	DATABASE_URL=mongodb+srv://medo:demo1234@cluster0.0tl3q.mongodb.net/test?retryWrites=true&w=majority
+
+Step 4: you can make a comment using # 
+	# server port
+	 PORT=3000
+
+
+Step 5: install dotenv package -> npm install dotenv 
+
+Step 6: require dotenv -> require('dotenv').config(); 
+
+Step 7: Access the env variables from anywhere using process.env.VARIABLE_NAME. Example – process.env.PORT;
+
+Optional: DotENV Extension - nice syntax highlighting in your .env files.
+
